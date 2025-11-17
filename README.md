@@ -19,8 +19,8 @@ A simple **Retrieval-Augmented Generation (RAG)** Question/Answer chatbot built 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/UVCode.git
-cd UVCode
+https://github.com/Sagar3195/RAG_Chatbot.git
+cd RAG_Chatbot
 
 # Install dependencies
 pip install -r requirements.txt
