@@ -15,12 +15,19 @@ A simple **Retrieval-Augmented Generation (RAG)** Question/Answer chatbot built 
 - [langchain_google_genai](https://pypi.org/project/langchain-google-genai/)  
 - [langchain_chroma](https://pypi.org/project/langchain-chroma/)  
 
-## Installation
+## Setup and Installation
 
 ```bash
 # Clone the repository
-https://github.com/Sagar3195/RAG_Chatbot.git
-cd RAG_Chatbot
+git clone <repository_url> # Replace with actual repository URL if available
+cd  <repository_name> # Respository Name
+
+# Create a new conda environment named 'ragch' with Python 3.11 (or your preferred version)
+conda create -n ragch python=3.11 -y
+
+# Activate the environment
+conda activate ragch
+
 
 # Install dependencies
 pip install -r requirements.txt
